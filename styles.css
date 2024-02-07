@@ -1,0 +1,193 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    position: relative;
+    width: 800px;
+    border: 1px none grey;
+    margin: 0 auto;
+}
+
+#header{
+    display: flex;
+    padding: 10px 10px;
+}
+
+#title{
+    float: left;
+    width: 400px;
+}
+
+#title h1{
+    width: 400px;
+}
+
+h1 a{
+    color: purple;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+#search{
+    float: right;
+    background-color: greenyellow;
+    height: 50px;
+    width: 400px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    border: 1px solid blue;
+    padding: 5px;
+    background: white url(./assets/glass.png) right center no-repeat;
+}
+
+.submit{
+    float: right;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    background-color: yellow;
+    height: 45px;
+    padding: 15px 0;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 10px;
+    height: 20px;
+    border-right: 1px solid #180a3a;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #180a3a;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a.active{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#introduction{
+    background-color: greenyellow;
+    height: 400px;
+    border: #180a3a none 1px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#introduction h3{
+    font-size: 35px;
+    color: #17714a;
+    font-weight: normal;
+}
+
+#introduction p{
+    color: #1a9731;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 400px;
+    width: 350px;
+    border: 1px solid #17714a;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px 5px;
+}
+.sidebar h3{
+    color: violet;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+    padding: 20px;
+}
+#leftsidebar ul {
+    padding-left: 50px;
+}
+
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(./assets/arrow.png);
+}
+
+#leftsidebar ul li a{
+    font-size: 27px;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar h3{
+    padding-left: 10px;
+}
+
+#rightsidebar ul li{
+    background: url(./assets/tick.png) left center no-repeat;
+    /* list-style-image: url(./assets/tick.png); */
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#rightsidebar ul li a{
+    font-size: 20px;
+}
+
+.footer{
+    height: 60px;
+    background: yellow;
+    padding: 10px 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
